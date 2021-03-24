@@ -144,7 +144,7 @@ describe('Validate', function(){
 
     describe('Transaction Codes', function(){
         it('must be valid ACH codes', function(){
-            var validTransactionCodes   = ['22','23','24','27','28','29','32','33','34','37','38','39']
+            var validTransactionCodes   = ['22','23','24','27','28','29','32','33','34','37','38','39','52']
               , invalidTransactionCodes = ['21','25','26','15','82','30','31','35','36','73','18','40'];
 
             // The function should not throw an error since all codes in the `validTransactionCodes` array are valid ACH transaction codes.
